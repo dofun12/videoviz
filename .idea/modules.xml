@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/videoviz-backend/videoviz-backend.iml" filepath="$PROJECT_DIR$/videoviz-backend/videoviz-backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/videoviz-gui/videoviz-gui.iml" filepath="$PROJECT_DIR$/videoviz-gui/videoviz-gui.iml" />
+    </modules>
+  </component>
+</project>

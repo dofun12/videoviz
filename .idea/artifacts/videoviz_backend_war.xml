@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="videoviz-backend:war">
+    <output-path>$PROJECT_DIR$/videoviz-backend/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>videoviz-backend</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ROOT.war">
+      <element id="artifact" artifact-name="videoviz-backend:war exploded" />
+    </root>
+  </artifact>
+</component>
