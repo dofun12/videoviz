@@ -20,6 +20,7 @@ import { PlaylistVideosComponent } from './playlist-videos/playlist-videos.compo
 import { BuscaAvancadaComponent } from './busca-avancada/busca-avancada.component';
 import { UploadComponent } from './upload/upload.component';
 import { FilaDownloadComponent } from './fila-download/fila-download.component';
+import { InfoComponent } from './info/info.component';
 
 
 
@@ -36,7 +37,8 @@ import { FilaDownloadComponent } from './fila-download/fila-download.component';
     PlaylistVideosComponent,
     BuscaAvancadaComponent,
     UploadComponent,
-    FilaDownloadComponent
+    FilaDownloadComponent,
+    InfoComponent
   ],
     imports: [
         BrowserModule,
