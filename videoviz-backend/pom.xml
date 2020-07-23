@@ -42,7 +42,7 @@
     </build>
 
     <modelVersion>4.0.0</modelVersion>
-
+    <groupId>videoviz</groupId>
     <artifactId>videoviz-backend</artifactId>
 
     <dependencies>
