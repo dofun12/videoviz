@@ -7,5 +7,11 @@
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/advancedvideomanager_dev</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="advancedvideomanager@192.168.15.102" uuid="bd9ac81f-b63a-4a58-847c-4e4a63b2d108">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.15.102:3306/advancedvideomanager</jdbc-url>
+    </data-source>
   </component>
 </project>
