@@ -6,6 +6,8 @@ import org.lemanoman.videoviz.model.DownloadQueue;
 import org.lemanoman.videoviz.repositories.*;
 import org.lemanoman.videoviz.service.VideoDownloadService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
@@ -26,7 +28,7 @@ public class DownloadQueueController {
     @GetMapping("/")
     public Resposta listAll() {
         try {
-            return new Resposta(downloadQueueRepository.findAll(Sort.by("id").descending())).success();
+            return new Resposta(downloadQueueRepository.findAll(PageRequest.of(0,300,Sort.by("id").descending()))).success();
         } catch (Exception ex) {
             return new Resposta().failed(ex);
         }
