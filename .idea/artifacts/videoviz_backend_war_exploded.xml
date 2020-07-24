@@ -32,6 +32,14 @@
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.5.12" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.13" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.14" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-security:2.3.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.2.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.2.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:5.3.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:5.3.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.2.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:5.3.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.2.7.RELEASE" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpmime:4.5.12" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-web:2.3.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-json:2.3.1.RELEASE" />
@@ -42,11 +50,7 @@
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.11.0" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.11.0" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:5.2.7.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.2.7.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.2.7.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.2.7.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.2.7.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.2.7.RELEASE" />
           <element id="library" level="project" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:2.3.3" />
           <element id="library" level="project" name="Maven: jakarta.activation:jakarta.activation-api:1.2.2" />
           <element id="library" level="project" name="Maven: net.bytebuddy:byte-buddy:1.10.11" />

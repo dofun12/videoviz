@@ -15,6 +15,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
 import java.util.*;
+import java.util.concurrent.TimeUnit;
 import java.util.zip.GZIPInputStream;
 import java.util.zip.GZIPOutputStream;
 
@@ -23,7 +24,8 @@ import java.util.zip.GZIPOutputStream;
 @RequestMapping(value = "/media", produces = MediaType.APPLICATION_JSON_VALUE)
 public class MediaController {
     private static final int DEFAULT_BUFFER_SIZE = 10240; // ..bytes = 10KB.
-    private static final long DEFAULT_EXPIRE_TIME = 604800000L; // ..ms = 1 week.
+    //private static final long DEFAULT_EXPIRE_TIME = 604800000L; // ..ms = 1 week.
+    private static final long DEFAULT_EXPIRE_TIME = TimeUnit.HOURS.toMillis(1); // ..ms = 1 week.
     private static final String MULTIPART_BOUNDARY = "MULTIPART_BYTERANGES";
 
     @Autowired

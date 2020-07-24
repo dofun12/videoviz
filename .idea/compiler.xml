@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="videoviz" target="8" />
+      <module name="videoviz" target="1.5" />
       <module name="videoviz-backend" target="8" />
       <module name="videoviz-gui" target="1.5" />
     </bytecodeTargetLevel>
