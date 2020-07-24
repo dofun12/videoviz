@@ -28,7 +28,7 @@ public class DownloadQueueController {
     @GetMapping("/")
     public Resposta listAll() {
         try {
-            return new Resposta(downloadQueueRepository.findAll(PageRequest.of(0,300,Sort.by("id").descending()))).success();
+            return new Resposta(downloadQueueRepository.findAll(PageRequest.of(0,300,Sort.by("id").descending())).toList()).success();
         } catch (Exception ex) {
             return new Resposta().failed(ex);
         }
